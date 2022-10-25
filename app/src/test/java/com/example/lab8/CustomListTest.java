@@ -13,6 +13,7 @@ public class CustomListTest {
     public void createList() {
         list = new CustomList(null, new ArrayList<City>());
 
+
     }
 
     @Test
