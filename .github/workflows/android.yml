@@ -25,4 +25,4 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Run Unit Tests
-      run: ./gradlew CustomListTest
+      run: ./gradlew com/example/lab8/CustomListTest
