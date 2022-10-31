@@ -36,7 +36,8 @@ public class CustomListTest {
         City new_city = new City("Toronto", "ON");
         list.addCity(new_city);
         list.deleteCity(new_city);
-        boolean stillHas = list.hasCity(new_city);
+        boolean stillHas = true;
+        stillHas = list.hasCity(new_city);
         assertEquals(stillHas, false);
     }
 }
