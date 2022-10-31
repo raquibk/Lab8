@@ -28,6 +28,7 @@ public class CustomListTest {
         City new_city = new City("Vancouver", "BC");
         boolean isTrue = list.hasCity(new_city);
         list.addCity(new_city);
+        // asserting
         assertEquals(isTrue, true);
     }
 }
