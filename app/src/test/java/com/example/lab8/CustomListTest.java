@@ -40,4 +40,12 @@ public class CustomListTest {
         stillHas = list.hasCity(new_city);
         assertEquals(stillHas, false);
     }
+
+    @Test
+    public void countCitiesTest() {
+        City c = new City("Leduc", "AB");
+        list.addCity(c);
+        int count = list.countCities();
+        assertEquals(count, 1);
+    }
 }
